@@ -1,0 +1,94 @@
+@use 'sass:math';
+
+$black: #000000;
+$white: #ffffff;
+$grey: #c0c0c0;
+
+// https://en.wikipedia.org/wiki/Buddhist_flag
+// https://en.wikipedia.org/wiki/Prayer_flag
+$red: #ff4d4f;
+$orange: #faad14;
+$green: #2e9a1a;
+
+$primary: #f47b2a;
+
+// gap
+$gap: 1rem; // ~12px
+$gap-sm: $gap * 0.618; // ~8px
+$gap-xs: math.div($gap-sm, 2); // ~4px
+$gap-lg: $gap-sm * 2; // ~14px
+
+// radius
+$radius-mini: 1px;
+$radius-xs: 2px;
+$radius-sm: 4px;
+$radius-lg: 6px;
+
+// durations
+$motion-duration-fast: 0.1s;
+$motion-duration-mid: 0.25s;
+$motion-duration-slow: 0.36s;
+
+// Z index
+$z-index-navigation-progress: 999999;
+$z-index-top: 99999;
+$z-index-header: 999;
+$z-index-toolbox: 9;
+$z-index-normal: 0;
+$z-index-underground: -1;
+
+// desktop
+$header-height: 5.1rem;
+$footer-height: 6rem;
+$container-width: 1050px;
+$navbar-width: 160px;
+$aside-width: 266px;
+$full-column-page-banner-height: 27rem;
+
+// others
+$rss-primary: #f8981d;
+$html5-primary: #d45835;
+$nodejs-primary: #43853d;
+$disqus-primary: #2e9fff;
+$whatsapp-primary: #25d366;
+$wechat-primary: #55be69;
+$wechat-channel-primary: #fa9d3b;
+$weibo-primary: rgb(230, 22, 45);
+$qzone-primary: rgb(43, 130, 217);
+$opensea-primary: rgb(32 129 226);
+$evernote-primary: rgb(85, 182, 25);
+$facebook-primary: rgb(59, 89, 152);
+$telegram-primary: #54a5dd;
+$douban-primary: #00b51d;
+$bing-primary: #01809e;
+$discord-primary: #5865f2;
+$stackoverflow-primary: #e6863d;
+$leetcode-primary: #fea116;
+$quora-primary: #b92b27;
+$linkedin-primary: #478cc5;
+$chatgpt-primary: #00a67e;
+$spotify-primary: #1db954;
+$music163-primary: #c20c0c;
+$youtube-primary: #ec3323;
+$paypal-primary: #4599d2;
+$paypal-primary-hover: #293a7c;
+$twitter-primary: #1b95e0;
+$twitter-primary-hover: #0c7abf;
+$twitter-x-primary: #000000;
+$twitter-x-primary-hover: #181919;
+$threads-primary: #050505;
+$zhihu-primary: #1772f6;
+$zhihu-primary-hover: oklch(from $zhihu-primary calc(l * 0.92) c h);
+$npm-primary: #bb161b;
+$github-primary: #24282d;
+$github-primary-hover: #000;
+$github-sponsor-primary: #ea4aaa;
+$instagram-primary: #ed4956;
+$instagram-gradient: linear-gradient(
+  45deg,
+  #f09433 0%,
+  #e6683c 25%,
+  #dc2743 50%,
+  #cc2366 75%,
+  #bc1888 100%
+);
